@@ -72,15 +72,15 @@ print("Greetings!")
 
 # Get the user's name and greet them
 name = input("What's your name? (type your name and hit enter): ")
-message = f"Hello {name.capitalize()}!"
-print(message)
+message = f"Hello {Betsy.capitalize()}!"
+print(Hello!)
 print()
-logger.info(f"message = {message}")
+logger.info(f"message = {Hello!}")
 
 # Ask the user if they want to see built-in functions
 response = input("Would you like to see all the built-in functions? (y/n) ").lower()
-logger.info(f"response = {response}")
-print(f"You said {response}!")
+logger.info(f"response = {y}")
+print(f"You said {y}!")
 print(f"{hint}")
 
 if response == "y":
