@@ -48,8 +48,8 @@ logger, logname = setup_logger(__file__)
 # TODO: Customize these by changing the values - use your own name, etc.
 
 # String data types
-name = "John Doe"
-state = "California"
+name = "Betsy Mayfield"
+state = "Missouri"
 country = "USA"
 
 # Integer data types
@@ -71,11 +71,11 @@ likes_python = True
 # the f is placed BEFORE the opening quote
 # and variables (or expressions) are placed inside curly braces
 
-logger.info(f"Name: {name} ")
-logger.info(f"State: {state}")
-logger.info(f"Country: {country}")
-logger.info(f"Pet count: {pet_count}")
-logger.info(f"Double the pet count: {pet_count * 2}")
+logger.info(f"Name: {Betsy Mayfield} ")
+logger.info(f"State: {MO}")
+logger.info(f"Country: {USA}")
+logger.info(f"Pet count: {2}")
+logger.info(f"Double the pet count: {2 * 2}")
 logger.info(f"Skill count: {skill_count}")
 logger.info(f"Temperature: {temperature_f}")
 logger.info(f"Pet weight: {pet_weight_lbs}")
